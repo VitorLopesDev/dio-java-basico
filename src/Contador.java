@@ -12,7 +12,7 @@ public class Contador {
             System.out.println("Digite o segundo parâmetro");
             int parametroDois = terminal.nextInt();
 
-            //chamando o método contendo a lógica de contagem
+            //chamando o metodo contendo a lógica de contagem
             contar(parametroUm, parametroDois);
 
         } catch (InputMismatchException exception) {
